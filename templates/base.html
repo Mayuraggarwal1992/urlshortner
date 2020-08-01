@@ -1,0 +1,16 @@
+TBD.................
+
+<head>
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+
+
+{% for message in get_flashed_messages() %}
+{{ message }}
+{% endfor %}
+
+{% block main %}
+{% endblock %}
