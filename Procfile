@@ -1,1 +1,1 @@
-web: gunicorn flask-mustang:app
+web: gunicorn urlshort:app
